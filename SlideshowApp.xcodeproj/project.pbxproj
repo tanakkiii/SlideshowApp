@@ -13,6 +13,10 @@
 		CDBB4883257F96D9002C687F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDBB4881257F96D9002C687F /* Main.storyboard */; };
 		CDBB4885257F96DA002C687F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDBB4884257F96DA002C687F /* Assets.xcassets */; };
 		CDBB4888257F96DA002C687F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDBB4886257F96DA002C687F /* LaunchScreen.storyboard */; };
+		CDBB4892257F9767002C687F /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = CDBB488F257F9767002C687F /* 0.png */; };
+		CDBB4893257F9767002C687F /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = CDBB4890257F9767002C687F /* 1.png */; };
+		CDBB4894257F9767002C687F /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = CDBB4891257F9767002C687F /* 2.png */; };
+		CDBB4896257FA14C002C687F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBB4895257FA14C002C687F /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		CDBB4884257F96DA002C687F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDBB4887257F96DA002C687F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDBB4889257F96DA002C687F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDBB488F257F9767002C687F /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		CDBB4890257F9767002C687F /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		CDBB4891257F9767002C687F /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		CDBB4895257FA14C002C687F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +50,9 @@
 			children = (
 				CDBB487A257F96D9002C687F /* SlideshowApp */,
 				CDBB4879257F96D9002C687F /* Products */,
+				CDBB488F257F9767002C687F /* 0.png */,
+				CDBB4890257F9767002C687F /* 1.png */,
+				CDBB4891257F9767002C687F /* 2.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +70,7 @@
 				CDBB487B257F96D9002C687F /* AppDelegate.swift */,
 				CDBB487D257F96D9002C687F /* SceneDelegate.swift */,
 				CDBB487F257F96D9002C687F /* ViewController.swift */,
+				CDBB4895257FA14C002C687F /* SecondViewController.swift */,
 				CDBB4881257F96D9002C687F /* Main.storyboard */,
 				CDBB4884257F96DA002C687F /* Assets.xcassets */,
 				CDBB4886257F96DA002C687F /* LaunchScreen.storyboard */,
@@ -125,9 +137,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDBB4894257F9767002C687F /* 2.png in Resources */,
+				CDBB4892257F9767002C687F /* 0.png in Resources */,
 				CDBB4888257F96DA002C687F /* LaunchScreen.storyboard in Resources */,
 				CDBB4885257F96DA002C687F /* Assets.xcassets in Resources */,
 				CDBB4883257F96D9002C687F /* Main.storyboard in Resources */,
+				CDBB4893257F9767002C687F /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDBB4896257FA14C002C687F /* SecondViewController.swift in Sources */,
 				CDBB4880257F96D9002C687F /* ViewController.swift in Sources */,
 				CDBB487C257F96D9002C687F /* AppDelegate.swift in Sources */,
 				CDBB487E257F96D9002C687F /* SceneDelegate.swift in Sources */,
