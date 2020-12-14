@@ -96,7 +96,17 @@ class ViewController: UIViewController {
     }
     
     @IBAction func expansion(_ sender: Any) {
-        timer?.invalidate()
+        
+        if self.timer != nil{
+            playPauseButton.setTitle("再生",for:UIControl.State.normal)
+            timer?.invalidate()
+            timer = nil
+            
+            backButtton.isEnabled = true
+            nextButton.isEnabled = true
+            
+        }
+        
     }
     
     
