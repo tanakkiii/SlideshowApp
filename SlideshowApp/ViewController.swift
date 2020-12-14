@@ -96,6 +96,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func expansion(_ sender: Any) {
+        timer?.invalidate()
     }
     
     
